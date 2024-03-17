@@ -34,7 +34,7 @@ public class AverageCalculator {
                 System.out.println("You've failed.");
             }
 
-            System.out.println("Do you wanna see how it again?");
+            System.out.println("Do you wanna see it again?");
             answer = s.next();
         }
         System.out.println("Thank you for using our platform!");
