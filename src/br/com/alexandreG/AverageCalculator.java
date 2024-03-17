@@ -16,13 +16,13 @@ public class AverageCalculator {
 
         while(answer.equalsIgnoreCase("yes")){
             System.out.println("Insert the first grade: ");
-            int grade_1 = s.nextInt();
+            float grade_1 = s.nextFloat();
             System.out.println("Insert the second grade: ");
-            float grade_2 = s.nextInt();
+            float grade_2 = s.nextFloat();
             System.out.println("Insert the third grade: ");
-            float grade_3 = s.nextInt();
+            float grade_3 = s.nextFloat();
             System.out.println("Insert the fourth grade: ");
-            float grade_4 = s.nextInt();
+            float grade_4 = s.nextFloat();
 
             float gradesAverage = (grade_1 + grade_2 + grade_3 + grade_4) / 4 ;
 
